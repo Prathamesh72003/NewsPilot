@@ -13,10 +13,11 @@
         android:theme="@style/Theme.NewsApplication">
         <activity
             android:name=".CustomCategory"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".CategoryScreen" />
         <activity
             android:name=".CategoryScreen"
-            android:exported="false" />
+            android:exported="false"/>
         <activity
             android:name=".NewsScreen"
             android:exported="false"

@@ -26,7 +26,7 @@ public class NewsScreen extends AppCompatActivity {
     RecyclerView recyclerView;
     newsadapter newsScreenAdapter;
     LinearLayoutManager linearLayoutManager;
-    String category;
+    String category,country,date;
     String URL;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,8 +34,14 @@ public class NewsScreen extends AppCompatActivity {
 
         setContentView(R.layout.activity_news_screen);
 
+
+        country = getIntent().getStringExtra("country");
         category = getIntent().getStringExtra("category");
-        URL = "https://newsapi.org/v2/top-headlines?apiKey=76e25b06acba4ed19f0e71d895171960&country=us&category="+category;
+        date = getIntent().getStringExtra("date");
+
+        Log.d("checking", "onCreate: "+country+category+date);
+
+        URL = "https://newsapi.org/v2/top-headlines?apiKey=76e25b06acba4ed19f0e71d895171960&country="+country+"&category="+category+"&from="+date;
 
         StringRequest stringRequest = new StringRequest(Request.Method.GET, URL, new Response.Listener<String>() {
             @Override
