@@ -32,10 +32,9 @@ To get started with the NewsPilot app, follow these steps:
 <li>Open the NewsPilot app on your Android device.</li>
 <li>Select one of the three categories: financial, sports, or entertainment.</li>
 <li>Optionally, enter additional parameters such as country, category, or from date to refine your search.</li>
-<li>Tap the "Search" button to fetch news articles.</li>
+<li>Tap the "Read News" button to fetch news articles.</li>
 <li>Browse through the articles by swiping up or down.</li>
 <li>Tap on an article to read it in detail.</li>
-<li>Optionally, save the article to read later or share it with others.</li>
 </ol>
 
 ## Contributing
