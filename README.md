@@ -1,6 +1,11 @@
 ## NewsPilot Android App
 NewsPilot is an Android application that fetches news from NewsAPI for three categories, financial, sports, and entertainment. The application allows users to manually enter parameters such as country, category, and from date to fetch data from the API.
 
+<p align="center">
+<img src="splashh.jpg" alt="Logo" width="190" height="350">
+<img src="home.jpg" alt="Logo" width="190" height="350">
+</p>
+
 ## Table of Contents
 <ol>
 <li>Features</li>
@@ -16,12 +21,17 @@ NewsPilot is an Android application that fetches news from NewsAPI for three cat
 * Displays news articles in a clean and easy-to-read format.
 * Users can navigate to supporting news article on internet by clicking news titles in app.
 
+<p align="center">
+<img src="custom.jpg" alt="Logo" width="190" height="350">
+<img src="feed.jpg" alt="Logo" width="190" height="350">
+</p>
+
 ## Getting Started
 To get started with the NewsPilot app, follow these steps:
 <ol>
 <li>Clone the repository to your local machine.</li>
 <li>Open the project in Android Studio.</li>
-<li>Create a NewsAPI account and obtain an API key.</li>
+<li>Create a NewsAPI account by visiting https://newsapi.org/ and obtain an API key.</li>
 <li>Replace the API key in the NewsScreen.java file with your own API key.</li>
 <li>Build and run the app on your Android device or emulator.</li>
 </ol>
