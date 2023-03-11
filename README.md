@@ -7,7 +7,6 @@ NewsPilot is an Android application that fetches news from NewsAPI for three cat
 <li>Getting Started</li>
 <li>Usage</li>
 <li>Contributing</li>
-<li>License</li>
 </ol>
 
 
