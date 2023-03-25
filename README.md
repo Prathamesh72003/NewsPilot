@@ -1,5 +1,5 @@
 ## NewsPilot Android App
-NewsPilot is an Android application that fetches news from NewsAPI for three categories, financial, sports, and entertainment. The application allows users to manually enter parameters such as country, category, and from date to fetch data from the API.
+NewsPilot is an Android application that fetches news from NewsAPI for three categories, financial, sports, and entertainment. The application also allows users to customize the category of feed by manually entering the required parameters such as country, category, and from date to fetch data according to users requirment from the API.
 
 <p align="center">
 <img src="splashh.jpg" alt="Logo" width="190" height="350">
@@ -17,7 +17,7 @@ NewsPilot is an Android application that fetches news from NewsAPI for three cat
 
 ## Features
 * Fetches news from NewsAPI for financial, sports, and entertainment categories.
-* Allows users to manually enter parameters such as country, category, and from date.
+* Allows users customize the category of news by manually entering parameters such as country, category, and from date.
 * Displays news articles in a clean and easy-to-read format.
 * Users can navigate to supporting news article on internet by clicking news titles in app.
 
@@ -40,7 +40,7 @@ To get started with the NewsPilot app, follow these steps:
 <ol>
 <li>Open the NewsPilot app on your Android device.</li>
 <li>Select one of the three categories: financial, sports, or entertainment.</li>
-<li>Optionally, enter additional parameters such as country, category, or from date to refine your search.</li>
+<li>Optionally, you can enter additional parameters such as country, category, or from date to get customized news category or refine your search.</li>
 <li>Tap the "Read News" button to fetch news articles.</li>
 <li>Browse through the articles by swiping up or down.</li>
 <li>Tap on an article to read it in detail.</li>
